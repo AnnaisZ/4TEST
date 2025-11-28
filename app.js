@@ -10,7 +10,7 @@ const $button = $(this);
 $tokenDisplayArea.removeClass("alert-success alert-danger").addClass("d-none");
 $tokenDisplay.text("");
 
-// 1. Validar campos - c
+// 1. Validar campos - comentarioextra
 if (!email || !password) {
 $tokenDisplayArea.removeClass("d-none").addClass("alert-danger");
 $tokenDisplay.text("⚠️ Por favor, ingresa tu email y contraseña.");
