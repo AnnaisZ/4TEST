@@ -6,11 +6,11 @@ const $tokenDisplayArea = $("#tokenResultado");
 const $tokenDisplay = $("#tokenDisplay");
 const $button = $(this);
 
-// Limpiar y ocultar resultados previos
+// Limpiar y ocultar resultados previos .
 $tokenDisplayArea.removeClass("alert-success alert-danger").addClass("d-none");
 $tokenDisplay.text("");
 
-// 1. Validar campos
+// 1. Validar campos - c
 if (!email || !password) {
 $tokenDisplayArea.removeClass("d-none").addClass("alert-danger");
 $tokenDisplay.text("⚠️ Por favor, ingresa tu email y contraseña.");
